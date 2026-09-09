@@ -1,14 +1,24 @@
 
-#100 Birds of the World
+#Endangered and Near-Endangered Birds of the World
+
+##The Problem
+Nature lovers need to know which "endangered" birds live nearby so they can help.  One way to help is to provide the kind of food the birds' need to live on.  My page will show you the birds' "range-map" and their usual diet.
 
 ##Data
-id, Name, Scientific Name, Conservation Status,  Primary Color, Diet,  Image of Range,   Image of Bird
+Field: - Example Value:
+ id    -   4
+Name   - Amsterdam Albatross
+Scientific Name - Diomedea amsterdamensis
+Conservation Status - Endangered
+Primary Color - Black
+Diet - "squid, fish, crustaceans"
+Image of Range - https://www.oiseaux.net/maps/svg/albatros.d.amsterdam.svg
+Image of Bird - https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Amsterdam_Albatross_0A2A3755.jpg/1920px-Amsterdam_Albatross_0A2A3755.jpg
 
-1, American Goldfinch, Spinus tristis, Least Concern, Yellow, "seeds, insects", https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/American_Goldfinch-rangemap.png/330px-American_Goldfinch-rangemap.png,   https://www.allaboutbirds.org/guide/assets/photo/63737371-480px.jpg
     
 ##Who would use it
 
-Someone interested in Birds.
+Someone interested in helping endangered birds.
 
 For example:
 -Which birds are endangered?
