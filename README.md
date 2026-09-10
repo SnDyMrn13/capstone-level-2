@@ -5,7 +5,7 @@
 Nature lovers need to know which "endangered" birds live nearby so they can help.  One way to help is to provide the kind of food the birds' need to live on.  My page will show you the birds' "range-map" and their usual diet.
 
 ## The Plan
-
+ ![my wireframe](wireframe-capstone2.png)
 ### Sections
 
 ### User Input
