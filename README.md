@@ -35,7 +35,11 @@ For example:
 -What do the birds need for their diet?
 
 ## Team
-Accountability partner: 
+Accountability partners:
+ 
+-mattwainwright-dev
+-Anastasia-2012
+-@Hexaxolotl
 
 
 ##Links
