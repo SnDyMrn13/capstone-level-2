@@ -5,7 +5,7 @@
 Nature lovers need to know which "endangered" birds live nearby so they can help.  One way to help is to provide the kind of food the birds' need to live on.  My page will show you the birds' and their usual diet.
 
 ## The Plan
- ![my wireframe](wireframe-capstone2.png)
+ ![my wireframe](images/wireframe-capstone2.png)
 ### Sections
  section 1: h1 - main headline title, main tagline, and cover picture with citation.
  section 2: h2 - "about Birds", and information about birds.
