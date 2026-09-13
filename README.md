@@ -2,16 +2,21 @@
 # Endangered Birds of the World
 
 ## The Problem
-Nature lovers need to know which "endangered" birds live nearby so they can help.  One way to help is to provide the kind of food the birds' need to live on.  My page will show you the birds' "range-map" and their usual diet.
+Nature lovers need to know which "endangered" birds live nearby so they can help.  One way to help is to provide the kind of food the birds' need to live on.  My page will show you the birds' and their usual diet.
 
 ## The Plan
  ![my wireframe](wireframe-capstone2.png)
 ### Sections
+ section 1: h1 - main headline title, main tagline, and cover picture with citation.
+ section 2: h2 - "about Birds", and information about birds.
+ section 3: h3 - birds that help with pest control, sentence explaining insect eating birds, and button that user "clicks" will show(output) a list of insect eating birds.
+ section 4: h3 - birds that spread seeds, sentence explaining seed spreading birds, and button that user "clicks" will show(output) a list of fruit eating birds.
+ section 5: h3 - birds that are pollinators, sentence explaining that birds help pollinate, and button that user "clicks" will show(output) a list of nectar consuming birds.
 
 ### User Input
-
+ 3 buttons - see above.
 ### Outputs
-
+ 3 outputs - see above.
 ## Data
 Field: - Example Value: 
 
