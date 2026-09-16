@@ -5,12 +5,18 @@ h6{
 	
 }
 
+h5{
+	
+	font-size:19px;
+}
 
-#endangered-bird-name{
+img{
 	
-	
-	
-	
+	width:450px;
+	height:auto;
+	object-fit:cover;
+	padding:25px;
+	margin-left:70px;
 	
 }
 
