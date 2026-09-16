@@ -15,10 +15,12 @@
   
   
    async function loadBirds(){
+	  /*limited api fetch to the object property I needed*/
 	  let response=await fetch("https://student-data-api.cindino45.workers.dev/api/v1/datasets/birds-of-the-world/records?search=endangered&limit=14");
 	  let data=await response.json();
 	  birdData=data.records;
-	  
+	 /* wanted random 'endangered bird' from list(with picture) that would change with each "click" of a button*/
+	 
 	  let index=birdData[randomNumber(0,birdData.length-1)];
 	   
 	  endangeredBirdname.textContent=index.Name + " -  needs a diet rich in: " + index.Diet ;
