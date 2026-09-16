@@ -31,7 +31,7 @@
 	  
 	  document.getElementById("insect-list").textContent=index1.Name + ", " + index2.Name + ", " + index3.Name + ", " + index4.Name + ", " + index5.Name ;
 
-	
+	console.log("status: " + response.status);
   }
   
   
