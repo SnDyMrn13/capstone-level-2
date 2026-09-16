@@ -6,6 +6,13 @@ Nature lovers need to know which "endangered" birds live nearby so they can help
 
 ## The Plan
  ![my wireframe](images/wireframe-capstone2.png)
+ 
+## What Changed
+With the 'Range Maps' proving inaccurate, I couldn't show the endangered birds by continent for the user.  Had to adjust 2nd page because of it.  Still could use Image and Diet, so made a 'button' for those.
+
+## How the request reaches my API
+A visitor clicks a button.  That initiates an async function that fetches the information from the array in my API (no "api-key needed), for example:"https://student-data-api.cindino45.workers.dev/api/v1/datasets/birds-of-the-world/records?search=insects&limit=20".  For each of the 4 buttons on my page, different search object properties are "called" and in different amounts.  They 'pass-through' a random function and then either an output-list is given or a picture with "diet' needs.
+  
 ### Sections
 * section 1: h1 - main headline title, main tagline, and cover picture with citation.
 * section 2: h2 - "about Birds", and information about birds.
