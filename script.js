@@ -17,10 +17,12 @@
  
  
   async function loadInsectbirds(){
+	  /*limited api fetch to the object property I needed, with a limit I could handle*/
 	  let response=await fetch("https://student-data-api.cindino45.workers.dev/api/v1/datasets/birds-of-the-world/records?search=insects&limit=20");
 	  let data=await response.json();
 	  birdData=data.records;
-	  
+	 /*This is the best I could do for multiple answer randomization at this time(still learning), only side-effect is that you will get duplicates */ 
+	 /*wanted new random list to show with every "click" of the button*/
 	  let index1=birdData[randomNumber(0,birdData.length-1)];
 	  let index2=birdData[randomNumber(0,birdData.length-1)];
 	  let index3=birdData[randomNumber(0,birdData.length-1)];
@@ -37,10 +39,12 @@
   
  
   async function loadSeedbirds(){
+	   /*limited api fetch to the object property I needed, with a limit I could handle*/
 	  let response=await fetch("https://student-data-api.cindino45.workers.dev/api/v1/datasets/birds-of-the-world/records?search=fruit&limit=20");
 	  let data=await response.json();
 	  birdData=data.records;
-	  
+	 /*This is the best I could do for multiple answer randomization at this time(still learning), only side-effect is that you will get duplicates */ 
+	/*wanted new random list to show with every "click" of the button*/
 	  let index1=birdData[randomNumber(0,birdData.length-1)];
 	  let index2=birdData[randomNumber(0,birdData.length-1)];
 	  let index3=birdData[randomNumber(0,birdData.length-1)];
@@ -54,10 +58,12 @@
   }	  
 	  
  async function loadNectarbirds(){
+	  /*limited api fetch to the object property I needed, with a limit I could handle*/
 	  let response=await fetch("https://student-data-api.cindino45.workers.dev/api/v1/datasets/birds-of-the-world/records?search=nectar&limit=5");
 	  let data=await response.json();
 	  birdData=data.records;
-	  
+	 /*This is the best I could do for multiple answer randomization at this time(still learning), only side-effect is that you will get duplicates  */
+	/*wanted new random list to show with every "click" of the button*/	 
 	  let index1=birdData[randomNumber(0,birdData.length-1)];
 	  let index2=birdData[randomNumber(0,birdData.length-1)];
 	  let index3=birdData[randomNumber(0,birdData.length-1)];
