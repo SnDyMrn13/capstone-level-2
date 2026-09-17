@@ -35,8 +35,8 @@ img{
 
 
 @media(max-width:800px){
-   .endangered-bird-image{
-	   width:90%;
+ .birdimg{
+	   width:100%;
 	   height:auto;
 	   object-fit:contain;
 	   margin:auto;
