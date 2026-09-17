@@ -2,7 +2,7 @@
  let endangeredButton=document.getElementById("endangered-button");
  let endangeredBirdname=document.getElementById("endangered-bird-name");
  let endangeredBirdimage=document.getElementById("endangered-bird-image");
-
+ 
  let birdData=[];
  let index=0;
 
@@ -25,13 +25,15 @@
 	   
 	  endangeredBirdname.textContent=index.Name + " -  needs a diet rich in: " + index.Diet ;
       endangeredBirdimage.src=index["Image of Bird"];
+	  endangeredBirdimage.hidden=false;
+	  
    }
    
    
    
    
    endangeredButton.addEventListener("click", function(){
-	   
+	  
 	   loadBirds();
 	   
    });
