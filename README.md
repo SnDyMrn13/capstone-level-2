@@ -57,6 +57,9 @@ Accountability partners:
 - Anastasia-2012
 - @Hexaxolotl
 
+## Reflection
+I had hoped to do a more detailed webpage enabling the user to see which endangered birds from the array might be near them - so if the user was inclined they could help.
+But with the 'Range Maps' being inaccurate, that vision changed to just more generalized information.  So, now the user can use "clicks" to get randomized lists of birds in 3 Diet categories and a special 'Endangered Birds' section where with a "click" the user gets a bird image/it's name/ and a diet need list.
 
 ##Links
  * https://sndymrn13.github.io/capstone-level-2/
